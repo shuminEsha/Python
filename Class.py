@@ -1,4 +1,4 @@
-class balance:
+class bank:
     def __init__(self,account_balance):
         self.balance=account_balance #instance 
         self.min_withdraw=100
@@ -23,6 +23,6 @@ class balance:
             return f'Your bank account has {self.balance} money '
             
 
-Esha=balance(20000)
+Esha=bank(20000)
 print(Esha.deposite(1000))
 print(Esha.withdraw(2000))
